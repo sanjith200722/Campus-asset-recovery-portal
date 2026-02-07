@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus asset recovery portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start page section -->
+     <div id="start_page">
+        <div id="start_pageu">
+            <div id="welcome">Welcome!</div>
+            <div id="welcome_head">To Campus asset recovery portal</div>
+            <div id="subtext">To continue <div id="movenext">click here</div></div>
+        </div>
+     </div>
+
+    <!-- start view posts section -->
+     <div id="start-posts">
+        <div class="postsHead">
+                    <h1 class="postsHeading">Posts</h1>
+                    <div class="Filter" id="filter1">
+                        <div class="fheading">Filter</div>
+                        <form  class="filter" id="filterform1">
+                            <div class="catselect">
+                                <label for="fCatogary" class="label2">Select catogary:</label>
+                            <select class="fCatogary" id="fCatogary1">
+                                <option value="Adhaar card">Adhaar card</option>
+                                <option value="Book">Book</option>
+                                <option value="Buss pass">Buss pass</option>
+                                <option value="Credit card">Credit card</option>
+                                <option value="Compass">Compasss</option>
+                                <option value="Debit card">Debit card</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Mobile">Mobile</option>
+                                <option value="Money">Money</option>
+                                <option value="Pouch">Pouch</option>
+                                <option value="Watch">Watch</option>
+                                <option value="Wallet">Wallet</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            </div>
+                            <div class="typeselect">
+                                <label for="radioty" class="label2">Select type: </label>
+                            <div class="radioty">
+                                <input type="radio" value="Lost" name="ftype1" class="fctype" >
+                                <label for="#flost">Lost</label>
+                            </div>
+                            <div class="radioty">
+                                <input type="radio" value="Found" name="ftype1" class="fctype" >
+                                <label for="#ffound" >Found</label>
+                            </div>
+                            </div>
+                            <input type="submit" value="Filter"  class="fltrbtn" >
+                        </form>
+                    </div>
+                    <div id="clearFilter1" class="CFilter">Clear Filter</div>
+                    <div id="totpost1" class="totpost"></div>
+                    <div id="mlorepage">To Login/Register<div id="mlorepageu">click here</div></div>
+                </div>
+                <div class="posts" id="posts1">
+                </div>
+                <footer>
+           <div id="fNavlink">
+            <a href="" class="afNavlink" id="afabout">About</a>
+            <a href="" class="afNavlink" id="afhelp">Help</a>
+           </div>
+           <div id="copyRight">&copy;2025 all rights reserved</div>
+        </footer>
+     </div>
+
+
+
+    <!-- login page section -->
+    <div id="loginpage">
+        <div id="login_page">
+        <div id="cover">
+            <h1 id="reglog_h1">Welcome!</h1>
+            <p id="reglog_para">Not registered yet. To sign up</p>
+            <p id="reglog_link"><u>Click here</u></p>
+        </div>
+        <form  id="sighnIn" class="varification" >
+            <p class="logHeading">Sign in</p>
+            <input type="text" placeholder="User name" id="usrname" class="loginput" required>
+            <div id="pswdbox">
+                <label for="#Password" class="Viewcheck" id="Viewcheck1">Show password</label>
+                <input type="password" placeholder="Password" id="Password" class="passwordcls" required>
+            </div>
+            <input type="submit" value="Log in" id="sgnin_submit" class="submit">
+        </form>
+        <form  id="sighnUp" class="varification" enctype="multipart/form-data" >
+            <p class="logHeading">Sign up</p>
+            <input type="text" placeholder="Name" id="regName" class="loginput" required>
+            <input type="text" placeholder="User name" id="regUsrname" class="loginput" required>
+            <input type="text" placeholder="Contact number" id="regCono" class="loginput" required>
+            <div id="fileselect">
+            <label for="#regProfpic" id="profpiclabel">Pic profile picture:</label>
+            <input type="file" accept="image/*"  id="regProfpic">
+            </div>
+            <div id="regpswdbox">
+                <label for="#regPassword" class="Viewcheck" id="Viewcheck2">Show password</label>
+                <input type="password" placeholder="Password" id="regPassword" class="regpasswordcls" required>
+                <input type="password" placeholder="Confirm password" id="regcnfmPassword" class="regpasswordcls" required>
+            </div>
+            <input type="button" value="Register" id="sgnup_submit" class="submit">
+        </form>
+      </div>
+    </div>
+    <!-- main page section -->
+        <nav  id="navbar">
+            <h1 id="heading1">Campus asset recovery portal</h1>
+            <div id="nbar">
+                <a href="#hero" class="navlink" id="heronav">Home</a>
+                <a href="#Profoile" class="navlink">Profile</a>
+                <a href="#rprtLostfound" class="navlink">Post items</a>
+                <a href="#viewItem" class="navlink">View items</a>
+                <a href="index.html" style="color: blue;" id="logout"><u>Logout</u></a>
+            </div>
+        </nav>
+        <main>
+            <section id="hero">
+                <div id="slogan">
+                <div id="pslogan">Find &<br>Recover <br>With Ease</div>
+                <div id="pname">By Campus Asset Recovery Portal </div>
+            </div>
+           <div id="pbuttons">
+                <a href="#rprtLostfound" class="mbuttons" style="--clr:rgb(255, 0, 0);">Report/Found lost items</a>
+                <a href="#Profoile" class="mbuttons" style="--clr: rgb(0, 118, 0);">Profile</a>
+                <a href="#viewItem" class="mbuttons" style="--clr: rgb(0, 0, 255);">View posted items</a>
+           </div>       
+            </section>
+            <section id="rprtLostfound">
+                <form id="FLform" enctype="multipart/form-data">
+                    <div id="form_heading">Post Lost/Found item</div>
+                     <label for="#radiopo" class="label1">Type</label>
+                     <div id="radiopo">
+                          <div class="radiopou">
+                                 <input type="radio" name="type1" class="ctype1" id="flost" value="Lost">
+                                 <label for="#flost" class="label1">Lost</label>
+                          </div>
+                          <div class="radiopou">
+                                 <input type="radio" name="type1" class="ctype1" id="ffound" value="Found">
+                                 <label for="#ffound" class="label1">Found</label>
+                            </div>
+                    </div>
+                    <label for="#itName" class="label1">Item Name</label>
+                    <input type="text" id="itName" required>
+                    <label for="#selector" class="label1">Choose Catogary</label>
+                     <select id="selector" required>
+                        <option value="Adhaar card">Adhaar card</option>
+                        <option value="Book">Book</option>
+                        <option value="Buss pass">Buss pass</option>
+                        <option value="Credit card">Credit card</option>
+                        <option value="Compass">Compasss</option>
+                        <option value="Debit card">Debit card</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Money">Money</option>
+                        <option value="Pouch">Pouch</option>
+                        <option value="Watch">Watch</option>
+                        <option value="Wallet">Wallet</option>
+                        <option value="Other">Other</option>
+                     </select>
+                     <label for="#location" class="label1">Lost/Found location</label>
+                     <textarea  id="location"></textarea required>
+                     <label for="#FLDate" class="label1">Lost/Found date</label>
+                     <input type="date" id="FLDate" required>
+                     <label for="#PicImg" class="label1">Insert picture of item</label>
+                     <input type="file" id="PicImg">
+                     <label for="#discription" class="label1">Details about Item/Location/Contact</label>
+                     <textarea  id="discription" required></textarea>
+                     <input type="button" value="Post" id="sbmtBtn"> 
+                </form>
+            </section>
+            <section id="viewItem">
+                <div class="postsHead">
+                    <h1 class="postsHeading">Posts</h1>
+                    <div class="Filter" id="filter2">
+                        <div class="fheading">Filter</div>
+                        <form  class="filter" id="filterform2">
+                            <div class="catselect">
+                                <label for="fCatogary" class="label2">Select catogary:</label>
+                            <select class="fCatogary" id="fCatogary2" >
+                                <option value="Adhaar card">Adhaar card</option>
+                                <option value="Book">Book</option>
+                                <option value="Buss pass">Buss pass</option>
+                                <option value="Credit card">Credit card</option>
+                                <option value="Compass">Compasss</option>
+                                <option value="Debit card">Debit card</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Mobile">Mobile</option>
+                                <option value="Money">Money</option>
+                                <option value="Pouch">Pouch</option>
+                                <option value="Watch">Watch</option>
+                                <option value="Wallet">Wallet</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            </div>
+                            <div class="typeselect">
+                                <label for="radioty"  class="label2">Select type: </label>
+                            <div class="radioty">
+                                <input type="radio" value="Lost" name="ftype2" class="fctype" >
+                                <label for="#flost">Lost</label>
+                            </div>
+                            <div class="radioty">
+                                <input type="radio" value="Found" name="ftype2" class="fctype" >
+                                <label for="#ffound" >Found</label>
+                            </div>
+                            </div>
+                            <input type="submit" value="Filter" class="fltrbtn" >
+                        </form>
+                    </div>
+                    <div id="clearFilter2" class="CFilter">Clear Filter</div>
+                    <div id="totpost2" class="totpost">Total posts:&nbsp;</div>
+                </div>
+                <div class="posts" id="posts2">
+                </div>
+            </section>
+            <section id="Profoile">
+                <div id="profilehead">
+                        <div id="profBox">
+                            <div id="profilepic"><img src="image/usrpc.jpg" id="profilepic1"></div>
+                            <div id="profDtl">
+                                <div id="profName"></div>
+                                <div id="usrName"></div>
+                                <div id="phoneno"><img id="pcProfImg" src="image/phone-call.png" alt="Call"></div>
+                            </div>
+                        </div>
+                        <div id="acdelete">Delete Account</div>
+                    </div>
+                <div id="Prposts">
+                </div>
+            </section>
+
+            <!-- footer section -->
+        <footer>
+           <div id="fNavlink">
+            <a href="" class="afNavlink" id="afabout">About</a>
+            <a href="" class="afNavlink" id="afhelp">Help</a>
+           </div>
+           <div id="copyRight">&copy;2025 all rights reserved</div>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>
