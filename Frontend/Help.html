@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELP</title>
+    <style>
+        h1{
+            text-align: center;
+        }body{
+            background-color: rgb(196, 196, 248);
+        }
+        img{
+            height: 350px;
+        }
+        p{
+            text-align: start;
+        }
+    </style>
+</head>
+<body>
+   <h1><u>HOW TO USE WEBSITE</u></h1> 
+   <h2>1. Welcome / Start Page:</h2>
+  <center><img src="/Frontend/image/startpage.png" alt="StartPage"></center> 
+      <p>
+    This is the welcome page of the Campus Asset Recovery Portal. It introduces the system to the user.
+    <br>
+The blue text “click here” is a link. Click this link to continue to the main portal.
+  </p>
+  <hr>
+<h2>2.View Items / Posts Page</h2>
+<center><img src="/Frontend/image/viewpage.png" alt="Main View page"></center>
+<p>
+    This page shows all posted lost and found items.
+    <br>
+Users can see:
+<ul>
+    <li>Item image</li>
+    <li>Type (Lost / Found)</li>
+    <li>Location</li>
+    <li>Date</li>
+    <li>Description</li>
+    <li>Contact number</li>
+</ul>
+The blue text “click here” is a link to go to login/register page.
+</p>
+<hr>
+<h2>3.Filter Option</h2>
+<center><img src="/Frontend/image/filteroption.png" alt="Filter option showcase"></center>
+<p>
+    This feature helps users search items easily.
+    <br>
+Users can filter by:
+<ul>
+    <li>Category</li>
+    <li>Type (Lost / Found)</li>
+</ul>
+Click Filter button to apply filter.
+<br>
+Click Clear Filter to reset results.
+</p>
+<hr>
+<h2>4.Login Page</h2>
+<center><img src="/Frontend/image/login.png" alt="Login page"></center>
+<p>This page is used by registered users to log in.Users must enter username and password.
+    <br>
+The blue text “Click here” is a link to go to the register page if the user is new.</p>
+<hr>
+<h2>5.Register Page</h2>
+<center><img src="/Frontend/image/register.png" alt="Register page"></center>
+<p>
+    This page allows new users to create an account.
+    <br>
+Users must fill:
+<ul>
+<li>Name</li>
+<li>Username</li>
+<li>Contact Number</li>
+<li>Profile Picture</li>
+<li>Password</li>
+</ul>
+The blue text “Click here” is a link for users who already have an account to go to login page.
+</p>
+<hr>
+<h2>6.Main Home Page</h2>
+<center><img src="/Frontend/image/mainpage.png" alt="Home page"></center>
+<p>
+    This is the main home page of the system.
+    <br>
+Users can navigate using buttons:
+<ul>
+    <li>Report/Found Lost Items → Go to post item page</li>
+    <li>Profile → View user details</li>
+    <li>View Posted Items → See all items</li>
+</ul>   
+Navigation bar buttons (Home, Profile, Post Items, View Items) help move between pages and for logout click “Logout”.
+</p>
+<hr>
+<h2>7.Profile Page</h2>
+<center><img src="/Frontend/image/profile.png" alt="Profile page"></center>
+<p>
+    This page shows user account details such as username, name, and contact number.And items posted by the logged-in user.
+Users can manage their posts.
+<br>
+The blue text “Delete post” is a link.
+Click it to delete the item post.
+Users can delete their account using “Delete Account” button.
+</p>
+<hr>
+<center><button id="click">Go back</button></center>
+<script>
+   document.getElementById("click").addEventListener("click",()=>{
+    window.location.href="index.html";
+   }) ;
+</script>
+</body>
+</html>

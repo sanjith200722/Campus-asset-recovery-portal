@@ -715,3 +715,6 @@ window.addEventListener("scroll",()=>{
         }
     });
 });
+// document.getElementById("afhelp").addEventListener("click",()=>{
+//     window.location.href="Help.html";
+// })

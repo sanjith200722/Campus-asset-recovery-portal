@@ -877,6 +877,21 @@ footer{
     align-items: center;
     justify-content: center;
 }
+#affabout{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid;
+}
+#affhelp{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #copyRight{
     font-size: smaller;
     text-align: center;
