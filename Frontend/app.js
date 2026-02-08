@@ -4,7 +4,7 @@ function dataexit(cls){
     document.querySelector(cls).innerHTML="";
     let dataexits=document.createElement("div");
     dataexits.className="dataexits";
-    dataexits.innerHTML="Zero Postss"
+    dataexits.innerHTML="Zero Posts"
     document.querySelector(cls).prepend(dataexits);
 }
 function count_itm(Rawdata,cls){
@@ -336,6 +336,7 @@ window.addEventListener("load",async () => {
     //     console.log(reflogdata);
         usrpost_upload(savedusr);
         refreshusrdata(savedusr);
+        document.getElementById("FLform").reset();
     const refdata=sessionStorage.getItem("refdata");
     console.log(refdata);
      if(refdata==="true"){
@@ -408,7 +409,7 @@ document.getElementById("movenext").addEventListener("click",()=>{
      .then(res => res.json())
      .then(data =>{
         if(data.message=="Data dont exist"){
-            dataexit("#posts2");
+            dataexit("#posts1");
             dataexit("#posts2");
         }else{
         const rawdata=data.upload_data.result;

@@ -12,7 +12,7 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(0.25turn,rgb(237, 172, 172),#a7f795);
+    background-image: linear-gradient(rgb(186, 254, 186),rgb(250, 172, 172));
     overflow: hidden;
 }
 main{
@@ -30,7 +30,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px);
+    background-color: azure;
     transition: transform 3s ease-out,opacity 3s ease-out;
 }
 #start_page.refresh{
@@ -395,7 +395,7 @@ main{
     top: 19%;
     left: 29%;
     overflow: hidden;
-    font-size: 75px;
+    font-size: 72px;
 }
 #pname{
     position: relative;
@@ -632,7 +632,7 @@ main{
     width: 45%;
     border: 3px solid wheat;
     border-radius: 10px;
-    background-color: rgba(255, 211, 153, 0.276);
+    background-color: rgba(251, 198, 141, 0.518);
     box-shadow: 4px 4px 3px rgb(159, 158, 158);
     overflow: hidden;
     display: flex;
